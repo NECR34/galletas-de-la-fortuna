@@ -1,0 +1,68 @@
+
+* {
+margin: 0px;
+padding: 0;
+box-sizing: border-box;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-image: 100%;
+
+}
+
+.App { 
+  text-align: center;
+  padding: 200px;
+  height: 100vh;
+  
+}
+
+
+
+button {
+  position:relative;
+  top: 100px;
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  align-items:baseline;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+.luck-cookie{
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.parrafo-cookie{
+  margin: 1.8rem;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+
+}
+
+.title{
+    text-transform: uppercase;
+    font-family:Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+  
+  
+
